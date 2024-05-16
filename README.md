@@ -14,6 +14,10 @@ The code performs a 1D random walk for a specified number of agents over differe
 - Seaborn
 - PyTorch
 
+To directly run on cloud click this link. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mushrafi88/Random_walk/blob/main/random_walk.ipynb)
+
+for local installation follow the below instructions
+
 ## Installation
 
 1. Create a virtual environment:
