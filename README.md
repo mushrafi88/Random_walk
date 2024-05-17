@@ -18,6 +18,7 @@ https://github.com/mushrafi88/Random_walk/assets/39360543/4c119e33-bce7-4cb4-89f
 - Seaborn
 - Pillow
 - PyTorch
+- Scikit-Learn
 
 To directly run on cloud click this link. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mushrafi88/Random_walk/blob/main/random_walk.ipynb)
 
@@ -54,8 +55,14 @@ for local installation follow the below instructions
     git clone https://github.com/mushrafi88/Random_walk.git
     cd Random_walk
     ```
-
 5. Install PyTorch with CUDA enabled by following the instructions [here](https://pytorch.org/get-started/locally/).
+
+## Nix package 
+For nix users just run the below command to setup a working environment with PyTorch And CUDA
+In nix environment 
+```bash
+nix develop --impure
+```
 
     - If you prefer not to use PyTorch with CUDA, you can replace instances of `torch` with `numpy` in the code.
 
