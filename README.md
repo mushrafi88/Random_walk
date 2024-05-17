@@ -6,6 +6,12 @@ This project simulates a random walk for multiple agents and plots the probabili
 
 The code performs a 1D random walk for a specified number of agents over different time steps. It uses PyTorch (GPU) for the simulation and Seaborn for plotting the Kernel Density Estimation (KDE) of the final positions of the agents. The probability density function is then visualized for various time steps.
 
+<video autoplay loop muted>
+  <source src="random_walk.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Requirements
 
 - Python 3.9 or higher
