@@ -57,12 +57,12 @@ for local installation follow the below instructions
     ```
 5. Install PyTorch with CUDA enabled by following the instructions [here](https://pytorch.org/get-started/locally/).
 
+    - If you prefer not to use PyTorch with CUDA, you can replace instances of `torch` with `numpy` in the code.
+
 ## Nix package 
 For nix users just run the below command to setup a working environment with PyTorch And CUDA
 In nix environment 
 ```bash
 nix develop --impure
 ```
-
-    - If you prefer not to use PyTorch with CUDA, you can replace instances of `torch` with `numpy` in the code.
 
