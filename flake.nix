@@ -46,8 +46,6 @@
             xorg.libXv
             zlib
             micromamba
-            ffmpeg
-            openh264
           ]
         );
         profile = ''
@@ -70,8 +68,8 @@
             echo "Creating new 'pytorch' environment."
             micromamba create --yes -q -n pytorch
             micromamba activate pytorch
-            micromamba install pytorch torchvision torchaudio pytorch-cuda=11.8 jupyter ipympl deepxde -c pytorch -c nvidia -c conda-forge
-            pip install matplotlib pandas seaborn scikit-learn tqdm catppuccin-jupyterlab neurodiffeq plotly kaleido
+            micromamba install pytorch torchvision torchaudio pytorch-cuda=11.8 jupyter ipympl -c pytorch -c nvidia -c conda-forge
+            pip install matplotlib pandas seaborn scikit-learn tqdm catppuccin-jupyterlab
             #jupyter lab
           fi
         '';
