@@ -16,6 +16,7 @@ https://github.com/mushrafi88/Random_walk/assets/39360543/4c119e33-bce7-4cb4-89f
 - NumPy
 - Matplotlib
 - Seaborn
+- Pillow
 - PyTorch
 
 To directly run on cloud click this link. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mushrafi88/Random_walk/blob/main/random_walk.ipynb)
@@ -44,7 +45,7 @@ for local installation follow the below instructions
 3. Install the required packages:
 
     ```bash
-    pip install numpy matplotlib seaborn
+    pip install numpy matplotlib seaborn pillow
     ```
 
 4. Clone the repository:
